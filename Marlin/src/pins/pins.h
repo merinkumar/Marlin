@@ -650,7 +650,7 @@
   #define BOARD_ESP32                   -1007
   #define BOARD_STEVAL                  -1008
   #define BOARD_BIGTREE_SKR_V1_1        -1009
-  #define BOARD_BIGTREE_SKR_V1_3        -1010
+  #define BOARD_BTT_SKR_V1_3        -1010
   #define BOARD_BIGTREE_SKR_V1_4        -1011
   #define BOARD_BIGTREE_SKR_V1_4_TURBO  -1012
   #define BOARD_BIGTREE_BTT002_V1_0     -1013
@@ -676,7 +676,7 @@
   #elif MB(BIGTREE_SKR_V2_2)
     #error "BOARD_BIGTREE_SKR_V1_2 has been renamed BOARD_BTT_SKR_V1_2. Please update your configuration."
   #elif MB(BIGTREE_SKR_V1_3)
-    #error "BOARD_BIGTREE_SKR_V1_3 has been renamed BOARD_BTT_SKR_V1_3. Please update your configuration."
+    #error "BOARD_BTT_SKR_V1_3 has been renamed BOARD_BTT_SKR_V1_3. Please update your configuration."
   #elif MB(BIGTREE_SKR_V1_4)
     #error "BOARD_BIGTREE_SKR_V1_4 has been renamed BOARD_BTT_SKR_V1_4. Please update your configuration."
   #elif MB(BIGTREE_SKR_V1_4_TURBO)
@@ -718,7 +718,7 @@
   #undef BOARD_STEVAL
   #undef BOARD_BIGTREE_SKR_MINI_E3
   #undef BOARD_BIGTREE_SKR_V1_1
-  #undef BOARD_BIGTREE_SKR_V1_3
+  #undef BOARD_BTT_SKR_V1_3
   #undef BOARD_BIGTREE_SKR_V1_4
   #undef BOARD_BIGTREE_SKR_V1_4_TURBO
   #undef BOARD_BIGTREE_BTT002_V1_0
