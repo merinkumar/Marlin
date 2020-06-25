@@ -130,11 +130,11 @@
 
 // Choose the name from boards.h that matches your setup
 #ifndef MOTHERBOARD
-  #define MOTHERBOARD BOARD_MELZI_CREALITY
+  #define MOTHERBOARD BOARD_BTT_SKR_V1_3
 #endif
 
 // Name displayed in the LCD "Ready" message and Info menu
-#define CUSTOM_MACHINE_NAME "Ender-3"
+#define CUSTOM_MACHINE_NAME "Merin Ender-3"
 
 // Printer's unique ID, used by some programs to differentiate between machines.
 // Choose your own or use a service like http://www.uuidgenerator.net/version4
